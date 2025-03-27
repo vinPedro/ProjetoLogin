@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* 
+PALETAS DE CORES:
+verde: #49a09d
+lilás: #5f2c82
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+}
+
+main{
+    
+}
+
+div#login{
+    display: block;
+    background: center center;
+}

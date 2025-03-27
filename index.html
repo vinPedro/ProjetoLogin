@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+
     <link rel="stylesheet" href="style/estilo.css">
     <link rel="stylesheet" href="style/mediaquey.css">
     
@@ -26,22 +28,25 @@
 
                 <form action="login.php" method="post">
 
-                    <div>
-                        <label for="iemail">Usuário</label> 
-                        <input type="email" name="email" id="iemail">
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="email" id="iemail" required placeholder=" Seu e-mail" autocomplete="email" minlength="11" maxlength="30">
+                         
                     </div>
 
-                    <div>
-                        <label for="isenha">Senha</label> 
-                        <input type="password" name="senha" id="isenha">
+                    <div class="campo">
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="senha" id="isenha" required placeholder=" Senha" autocomplete="current-password" minlength="8" maxlength="16">
+                         
+
                     </div>
 
-                    <div>
-                        <input type="submit" value="Enviar">
-                    </div>
-                    <div>
-                        <input type="submit" value="Esqueceu a senha">
-                    </div>
+                    
+                    <input type="submit" value="Enviar">
+                    
+                    <a href="esqueci.html" class="botao">
+                        Esqueci a senha <i class="material-icons">mail</i>
+                    </a>
 
                 </form>
 

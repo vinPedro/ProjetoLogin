@@ -8,7 +8,9 @@
 
     section#login{
         width: 90%;
-        transition: width 0.3s, height 0.3s;
+        height: 370px;
+        
+        transition: width 0.4s, height 0.4s;
     }
 
     div#img{
@@ -21,6 +23,28 @@
         float: right;
         width: 65%;
     }
+
+    form  input[type=submit]{
+        width: 71.9%;
+        background-image: linear-gradient(to left, #49a09d, #5f2c82);
+        
+    }
+
+    form  input[type=submit]:hover{
+        background-image: linear-gradient(to left, #49a09dc7, #602c82a9);
+        color: black;
+    }
+
+    a.botao{
+        background-image: linear-gradient(to left, #49a09d, #5f2c82);
+        
+    }
+    
+    a.botao:hover{
+        background-image: linear-gradient(to left, #49a09dc7, #602c82a9);
+        color: black;
+    }
+
 }
 
 @media screen and (min-width: 992px){
@@ -31,18 +55,43 @@
 
     section#login{
         width: 950px;
-        
+        height: 400px;
     }
 
     div#img{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     div#form{
-        float: right;
+        float: left;
         width: 45%;
+    }
+
+    div#form p{
+        font-size: 1em;
+    }
+
+    form  input[type=submit]{
+        width: 72%;
+        background-image: linear-gradient(to left, #49a09d, #5f2c82);
+        
+    }
+
+    form  input[type=submit]:hover{
+        background-image: linear-gradient(to left, #49a09dc7, #602c82a9);
+        color: black;
+    }
+
+    a.botao{
+        background-image: linear-gradient(to left, #49a09d, #5f2c82);
+        
+    }
+    
+    a.botao:hover{
+        background-image: linear-gradient(to left, #49a09dc7, #602c82a9);
+        color: black;
     }
     
 }

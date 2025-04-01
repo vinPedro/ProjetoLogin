@@ -9,6 +9,8 @@
     section#login{
         width: 90%;
         height: 370px;
+
+        margin: 10px;
         
         transition: width 0.4s, height 0.4s;
     }
